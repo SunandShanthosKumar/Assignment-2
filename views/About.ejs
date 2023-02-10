@@ -1,0 +1,42 @@
+<!-- 
+    about.ejs
+    Name: Sunand Shanthos Kumar
+    StudentID: 301297793
+    Date: 02/09/2023 
+-->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+<style>
+   img {
+     border: 5px solid #555;
+   }
+   </style>
+<h1>
+   <%= title %>   
+  </h1>
+
+ <img src="../Assets/images/Profile.jpg" width="300" height="300" style="vertical-align:middle;margin:0px 650px" />    
+ <table> 
+  <tr> 
+     <td>Name: </td>       
+      <td>Sunand Shanthos Kumar</td>    
+   </tr>      
+  <tr>       
+    <td valign="top">About me: </td>        
+    <td>         
+       Hi, I'm Sunand Shanthos Kumar, you can call me Sunand. I'm currently enrolled in the Game-Programming course at Centennial College. I was born and brought up in Chennai, Tamil Nadu, India. <br> 
+        I had completed my Bachelor's in Electronics and Computer Engineering and was working as a Front-end engineer in an IT company. <br>        
+          I like to draw, cook and watch anime. I count on drawing to be a great way to relieve stress and provide a sense of accomplishment as you complete a piece of art and cooking can be a great pallette to my creativity and is a fun way to bond with family and friends over meals.  
+         </td>     
+         </tr>     
+          <tr>       
+             <td>Resume: </td>      
+               <td><a href="../Assets/images/Sunand CV PDF.pdf">Click Here</a></td>     
+               </tr>    
+              </table>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

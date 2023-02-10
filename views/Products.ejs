@@ -1,0 +1,48 @@
+<!-- 
+    products.ejs
+    Name: Sunand Shanthos Kumar
+    StudentID: 301297793
+    Date: 02/09/2023 
+-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+<style>
+  img {
+    border: 5px solid #555;
+  }
+  </style>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      
+       <!-- Project 1 -->
+<section class="project">
+  <img src="../Assets/images/project1.jpg" alt="Project 1">
+  <h2>Dynamic Dashboard</h2>
+  <p>This is a dynamic dashboard I made using Cube.Js in helping out a medico legal company in India to organize and retrospect their real time data. </p>
+</section>
+           
+    <!-- Project 2 -->
+<section class="project">
+  <img src="../Assets/images/project2.jpg" alt="Project 2">
+  <h2>Mobile App for a Micro finance company</h2>
+  <p>I have helped in creating a user friendly app for a micro finance company to help rural people take out loans easily. </p>
+</section>
+
+
+<!-- Project 3 -->
+<section class="project">
+  <img src="/Assets/images/project3.jpg" alt="Project 3">
+  <h2>Unity Game Developer</h2>
+  <p>As a unity developer, I will be responsible for planning and implementing game functionality, building the game code, identifying bottlenecks, and ensuring the quality of the finished product. I may also be required to build patches and install game updates.</p>
+</section>
+
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
